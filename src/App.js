@@ -1,16 +1,16 @@
 import React from 'react';
  
 import './App.css';
+import Reactplayerinfo from './components/Reactplayerinfo';
  
  
-import Reactplayermio from './components/Reactplayer';
+ 
 
 function App() {
   return (
     <div className="App">
-     
-    <Reactplayermio/>
-    
+ 
+    <Reactplayerinfo/>
     </div>
   );
 }
